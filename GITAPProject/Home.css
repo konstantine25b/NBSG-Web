@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    background-image: url("Render.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+.nav1{
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(53 56 62);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 1s;
+    opacity: 1;
+    z-index: 2;
+}
+.nav1items1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+.nav1item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.nav1item1 img{
+    width: 150px;
+    transition: 0.5s;
+    
+}
+.nav1item1 img:hover{
+    width: 180px;
+}
+.nav1item1 h1 {
+    font-size: 25px;
+    font-family: "Helvetica Neue";
+    
+    transition: 0.5s;
+}
+.nav1item1 a{
+    text-decoration: none;
+    color: rgb(34, 30, 47);
+}
+.nav1item1 h1:hover{
+    font-size: 30px;
+}
+.nav1item2{
+width: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.nav1item2 img {
+    width: 50px;
+}
+.nav1item2items{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    background-color: rgb(53 56 62);
+    opacity: 1;
+   
+    border-radius: 4px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;; */
+    transition: 0.5s;
+    height: 85px;
+    
+
+}
+.nav1item2items h4{
+    font-size: 20px;
+    color: white;
+}
+.nav1item2items:hover{
+    
+
+    cursor: pointer;
+    
+}
+
+.nav1item3{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav1item3item1 li{
+   list-style: none;
+   
+   font-size: 20px;
+   font-weight: 530;
+   padding: 8px;
+   border-radius: 3px;
+   transition: 0.4s;
+}
+.nav1item3item1 li:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.nav1item3item1 a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+
+.nav1item3item2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.nav1item3item2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   font-weight: 530;
+   padding: 8px;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+.nav1item3item2 a:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+
+.aside1{
+    margin-top: 250px;
+    width: 100%;
+    
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.5s;
+
+}
+.aside1:hover{
+    background-color: rgba(38, 33, 48,0.7);
+}
+.aside1right{
+    display: flex;
+    flex-direction: column;
+}
+.aside1 h1{
+    color: white;
+}
+.aside1top{
+    height: 100px;
+
+}
+.aside1 p{
+    color: white;
+}
+.aside1bottom{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.aside1left img {
+    width: 300px;
+}
+.aside1left {
+  width: 350px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.aside1right{
+ display: flex;
+ justify-content: flex-start;
+ width: 90%;
+}
+.bottom{
+    margin-bottom: 150px;
+}
+.list{
+    width: 15%;
+    background-color:rgb(53 56 62) ;
+    border-radius: 5px;
+    margin-left: 43%;
+    color: white;
+    display: flex;
+    margin-top: -45px;
+    position: fixed;
+    z-index: 2;
+    visibility: hidden;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+/* .list ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+} */
+.list li {
+    color: white;
+    margin-bottom: 10px;
+    list-style: none;
+}
+h4{
+    color: white !important;
+}
+.list li:hover{
+    background-color: rgb(61, 61, 74);
+    cursor: pointer;
+}
+.x{
+    
+    height: 20px;
+    font-size: 25px;
+}
+.x:hover{
+    cursor: pointer;
+}
